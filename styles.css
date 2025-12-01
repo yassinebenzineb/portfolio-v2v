@@ -179,7 +179,7 @@ a:hover {
   position: relative;
 }
 
-/* Image de fond avec URL externe */
+/* Remplacé le chemin local par l'URL externe Vercel Blob */
 .hero-background {
   position: absolute;
   top: 0;
@@ -339,7 +339,7 @@ a:hover {
   color: var(--color-text-muted);
   text-align: center;
   max-width: 600px;
-  margin: 0 auto 3rem;
+  margin: 0 auto 3rem; /* Fix: Changed `0 auto = 3rem` to `0 auto 3rem` */
 }
 
 /* ===== About ===== */
