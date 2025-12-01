@@ -339,7 +339,7 @@ a:hover {
   color: var(--color-text-muted);
   text-align: center;
   max-width: 600px;
-  margin: 0 auto 3rem; /* Fix: Changed `0 auto = 3rem` to `0 auto 3rem` */
+  margin: 0 auto 3rem;
 }
 
 /* ===== About ===== */
