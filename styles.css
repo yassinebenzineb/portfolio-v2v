@@ -179,7 +179,7 @@ a:hover {
   position: relative;
 }
 
-/* Remplacé le chemin local par l'URL externe Vercel Blob */
+/* Chemin simple vers l'image à la racine du projet */
 .hero-background {
   position: absolute;
   top: 0;
@@ -187,7 +187,7 @@ a:hover {
   right: 0;
   bottom: 0;
   z-index: 0;
-  background-image: url("/images/bureau-moderne-et-technologie-financie-cc-80re.png");
+  background-image: url("./hero-bg.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -339,16 +339,7 @@ a:hover {
   color: var(--color-text-muted);
   text-align: center;
   max-width: 600px;
-  margin: 0 auto 3rem;
-}
-
-/* ===== About ===== */
-.about-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 4rem;
-  align-items: center;
-  margin-top: 3rem;
+  margin: 0 auto;
 }
 
 .about-image {
